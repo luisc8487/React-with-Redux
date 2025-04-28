@@ -1,18 +1,13 @@
 // 1) Import React and ReactDOM libraries
 import React from "react";
-// import ReactDOM from "react-dom";
-import {createRoot} from "react-dom/client";
+import ReactDOM from "react-dom/client"; // React 18
+import App from "./App";
 
 // 2) Get reference to the root element
 const el = document.getElementById("root");
 
 // 3) Tell React to render the App component into the root element
-const root = createRoot(el);
+const root = ReactDOM.createRoot(el);
 
-// 4) Create a component
-function App() {
-  return <h1>Hi there!</h1>;
-}
-
-// 5) Show the component on the screen
+// 4) Show the component on the screen
 root.render(<App />);
