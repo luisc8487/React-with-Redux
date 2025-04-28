@@ -11,7 +11,7 @@ const root = createRoot(el);
 
 // 4) Create a component
 function App() {
-  return <input spellCheck={false} />;
+  return <h1>Hi there!</h1>;
 }
 
 // 5) Show the component on the screen
