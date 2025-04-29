@@ -65,7 +65,6 @@ root.render(<App />);
 The `App.js` file contains the main component of the application. For example:
 
 ```jsx
-// filepath: c:\Users\lf990\Desktop\WorkSpace\FutureCoders\Modern React with Redux 2024\React-with-Redux\jsx-app\src\App.js
 import React from "react";
 
 function App() {
@@ -94,18 +93,21 @@ import ReactDOM from "react-dom/client";
 - **JSX**: JSX is a syntax extension for JavaScript that allows you to write HTML-like code directly in your JavaScript files. For example:
 
 ```jsx
-return <h1>Hello there!</h1>
+return <h1>Hello there!</h1>;
 ```
 
 ### 7. Folder Structure
+
 Here is the basic folder structure of the project:
 
+```lua
 jsx-app/
-├── public/
-│   └── index.html  # Contains the <div id="root"></div> where React renders the app
-├── src/
-│   ├── App.js      # Main React component
-│   ├── index.js    # Entry point of the application
-│   └── ...other files
-├── package.json    # Project configuration and dependencies
-└── README.md       # Project documentation
+|-- public/
+|   |-- index.html   #Contains the <div id="root"></div> where React renders the app
+|-- src/
+|   |-- App.js       # Main React component
+|   |-- index.js     # Entry point of the application
+|   |-- ...other files
+|-- package.json     # Project configuration and dependencies
+|-- README.md        # Project documentation
+```
