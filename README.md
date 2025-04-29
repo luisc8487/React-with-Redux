@@ -2,13 +2,23 @@
 
 ## Table of Contents
 
-1. []()
+1. [JSX App with React](#jsx-app-with-react)
+   - [Getting Started with React](#getting-started-with-react)
+     - [1. Install NodeJS](#1-install-nodejs)
+     - [2. Set Up the React App](#2-set-up-the-react-app)
+     - [3. Install Dependencies](#3-install-dependencies)
+     - [4. Understanding the Code](#4-understanding-the-code)
+       - [index.js](#indexjs)
+       - [App.js](#appjs)
+     - [5. Run the Application](#5-run-the-application)
+     - [6. Important Notes](#6-important-notes)
+     - [7. Folder Structure](#7-folder-structure)
 
 # JSX App with React
 
 This project demonstrates how to set up a basic React application using JSX. It includes an example of importing and rendering a React component (`App`) from a separate file into the main `index.js` file.
 
-## Getting Started
+## Getting Started with React
 
 Follow these steps to set up and run the project on your local machine.
 
