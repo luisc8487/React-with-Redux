@@ -82,3 +82,30 @@ To start the development server and see the app in your browser:
 1. Run the following command:
    `npm start`
 2. Open your browser and go to `http://localhost:3000`. You should see the message "Hello World!"
+
+### 6. Important Notes
+
+- **React 18 Update**: Starting with React 18, you need to import ReactDOM from react-dom/client instead of react-dom. This is already reflected in the index.js file:
+
+```jsx
+import ReactDOM from "react-dom/client";
+```
+
+- **JSX**: JSX is a syntax extension for JavaScript that allows you to write HTML-like code directly in your JavaScript files. For example:
+
+```jsx
+return <h1>Hello there!</h1>
+```
+
+### 7. Folder Structure
+Here is the basic folder structure of the project:
+
+jsx-app/
+├── public/
+│   └── index.html  # Contains the <div id="root"></div> where React renders the app
+├── src/
+│   ├── App.js      # Main React component
+│   ├── index.js    # Entry point of the application
+│   └── ...other files
+├── package.json    # Project configuration and dependencies
+└── README.md       # Project documentation
